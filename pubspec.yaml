@@ -1,0 +1,15 @@
+name: replace_env_vars
+description: Provides a transformer for replacing values in Dart files with environment variable values
+version: 0.1.0
+author: Travis Sanderson <travissanderson@gmail.com>
+homepage: https://github.com/travissanderson/replace_env_vars.dart
+
+environment:
+  sdk: '>=1.8.0 <2.0.0'
+
+dependencies:
+  ansicolor: ^0.0.9
+  barback: ^0.15.0
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
